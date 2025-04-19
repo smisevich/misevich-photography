@@ -250,14 +250,22 @@ footer {
     font-size: 1rem;
   }
 
-  .booking-section {
+  .booking-tile h2 {
+    font-size: 1.5rem;
+  }
+
+  .booking-tile p {
+    font-size: 1rem;
+  }
+
+  /* .booking-section {
     flex-direction: column;
     gap: 1.5rem;
   }
 
   .booking-tile {
     width: 100%;
-  }
+  } */
 
   .tile-cta a {
     justify-content: end;
@@ -266,17 +274,14 @@ footer {
 }
 
 @media only screen and (max-width: 925px) {
-  /* .hero-img img {
-    width: 15rem;
+  .booking-section {
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
-  .hero h3 {
-    font-size: 1.5rem;
+  .booking-tile {
+    width: 100%;
   }
-
-  .hero p {
-    font-size: 1rem;
-  } */
 
   footer h2 {
     font-size: 3rem;
