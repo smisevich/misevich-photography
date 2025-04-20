@@ -13,6 +13,17 @@ body {
 nav {
   height: 100px;
   padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  font-weight: 500;
 }
 
 .logo {
@@ -91,7 +102,7 @@ p {
 .booking-tile {
   /* height: 400px; */
   width: 30%;
-  background-color: #d6d6d6;
+  background-color: #9dd7e0;
   padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
@@ -289,6 +300,11 @@ footer {
 }
 
 @media only screen and (max-width: 650px) {
+  .links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
   .hero {
     flex-direction: column;
     gap: 2rem;
@@ -320,5 +336,11 @@ footer {
 
   footer p {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .links {
+    display: none;
   }
 }

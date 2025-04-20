@@ -1,0 +1,174 @@
+.hero-text h1 {
+  font-size: 4rem;
+}
+
+.hero-text p {
+  font-size: 2rem;
+}
+
+.book-btn button {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+/* INFO FUNNEL */
+.dark-bground {
+  background-color: #9dd7e0;
+}
+
+.icon-container {
+  max-width: 80%;
+  justify-self: center;
+  padding: 3rem 0;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-funnel .icon img {
+  width: 6rem;
+}
+
+.info-txt p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.info-txt {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/* IMAGE AND TEXT ROWS */
+
+.container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.figure-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+figure {
+  max-width: 40%;
+}
+
+figure img {
+  width: 100%;
+}
+
+.figure-txt {
+  max-width: 50%;
+  line-height: 1.5;
+}
+
+.figure-txt h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+/* STEPS */
+
+.steps {
+  margin: 5rem 0;
+}
+
+.steps h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.steps-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.step-box h2 {
+  text-align: left;
+}
+
+.step-box {
+  padding: 2rem 1.5rem;
+  width: 18rem;
+}
+
+/* REVIEW CONTAINER */
+
+.review-container {
+  margin: 2rem 0;
+  padding: 4rem;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.rating {
+  flex: 1;
+  text-align: center;
+}
+
+.review-container h2 {
+  font-size: 3rem;
+}
+
+.review-container h3 {
+  text-align: center;
+  align-self: center;
+  flex: 2;
+  font-weight: 500;
+}
+
+/* CALL TO ACTION - CTA */
+
+.cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cta h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.cta p {
+  font-size: 1.75rem;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p,
+  .info-txt p {
+    font-size: 1.75rem;
+  }
+
+  .figure-txt h2 {
+    font-size: 2.25rem;
+  }
+
+  .review-container {
+    padding-left: 1rem;
+  }
+}
