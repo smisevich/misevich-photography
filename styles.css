@@ -103,12 +103,15 @@ p {
   /* height: 400px; */
   width: 30%;
   background-color: #9dd7e0;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem #333333;
+}
+
+.booking-tile a {
   padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem #333333;
 }
 
 .booking-tile:hover {
@@ -128,7 +131,7 @@ p {
   gap: 1rem;
 }
 
-.tile-cta a {
+.tile-cta {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -167,6 +170,7 @@ p {
   border: none;
   font-size: 1rem;
   max-width: 100%;
+  min-width: 100%;
 }
 
 .contact-left textarea {
@@ -305,7 +309,7 @@ footer {
     width: 100%;
   } */
 
-  .tile-cta a {
+  .tile-cta {
     justify-content: end;
     gap: 2rem;
   }
@@ -382,7 +386,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 350px) {
   .links {
     display: none;
   }
