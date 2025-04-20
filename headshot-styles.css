@@ -19,9 +19,8 @@
 
 .icon-container {
   max-width: 80%;
-  justify-self: center;
   padding: 3rem 0;
-  margin-top: 5rem;
+  margin: 5rem auto;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -217,7 +216,6 @@ footer {
   .rating {
     padding: 0;
   }
-
 }
 
 @media (max-width: 725px) {
@@ -239,16 +237,16 @@ footer {
 }
 
 @media (max-width: 450px) {
-    .book-btn button {
-        font-size: 1.25rem;
-    }
+  .book-btn button {
+    font-size: 1.25rem;
+  }
 
-    .info-txt p {
-        font-size: 1rem;
-    }
+  .info-txt p {
+    font-size: 1rem;
+  }
 
-    .steps h2,
-    .cta h2 {
-        font-size: 2rem;
-    }
+  .steps h2,
+  .cta h2 {
+    font-size: 2rem;
+  }
 }
