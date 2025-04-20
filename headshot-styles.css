@@ -154,6 +154,20 @@ footer {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1150px) {
+  .figure-txt h2 {
+    font-size: 2.25rem;
+  }
+
+  .review-container h2 {
+    font-size: 2.5rem;
+  }
+
+  .review-container img {
+    width: 2.5rem;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .hero-text h1 {
     font-size: 2rem;
@@ -175,4 +189,66 @@ footer {
   .review-container {
     padding-left: 1rem;
   }
+}
+
+@media (max-width: 850px) {
+  .icon img {
+    width: 2.75rem;
+  }
+
+  .info-txt p {
+    font-size: 1.25rem;
+  }
+
+  .figure-txt h2 {
+    font-size: 1.75rem;
+  }
+
+  .figure-txt p {
+    font-size: 1.25rem;
+  }
+
+  .review-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 0;
+  }
+
+  .rating {
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 725px) {
+  .figure-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .figure-txt,
+  figure {
+    max-width: 80%;
+  }
+
+  .reverse-order {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 450px) {
+    .book-btn button {
+        font-size: 1.25rem;
+    }
+
+    .info-txt p {
+        font-size: 1rem;
+    }
+
+    .steps h2,
+    .cta h2 {
+        font-size: 2rem;
+    }
 }
