@@ -12,6 +12,10 @@
     <title>Misevich Photography</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="./assets/misevich_photo_logo.png" />
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -22,10 +26,10 @@
           </a>
         </div>
         <div class="links">
-            <a href="./index.html">Home</a>
-            <a href="./headshots.html">Headshots</a>
-            <a href="./portraits.html">Portraits</a>
-            <a href="./audition_cuts.html">Audition Cuts</a>
+          <a href="./index.html">Home</a>
+          <a href="./headshots.html">Headshots</a>
+          <a href="./portraits.html">Portraits</a>
+          <a href="./audition_cuts.html">Audition Cuts</a>
         </div>
       </nav>
     </header>
@@ -49,7 +53,7 @@
           <h2>Headshots</h2>
           <p>
             Your headshot is your calling card. Stand out and make a great first
-            impression with an 8x10 that radiates professionalism!
+            impression with an 8x10 that radiates professionalism.
           </p>
         </div>
         <div class="tile-cta">
@@ -91,39 +95,85 @@
       </div>
     </section>
     <section class="contact-section">
-      <div class="contact-text">
+      <form action="" class="contact-left">
+        <div class="contact-left-title">
+          <h2>Get in touch</h2>
+        </div>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          class="contact-inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          class="contact-inputs"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          class="contact-inputs"
+          required
+        ></textarea>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+      <!-- <div class="contact-text">
         <h2>Get in touch</h2>
         <h3>Just Say Hello!</h3>
       </div>
       <div class="contact-btn">
         <button>Contact</button>
-      </div>
+      </div> -->
     </section>
     <section class="gallery-section">
       <div class="gallery-header">
         <h2>Portfolio</h2>
-        <a href="https://www.instagram.com/stanleymisevich_photography/" target="_blank"><img src="./assets/insta-icon.svg" alt="instagram-icon"></a>
+        <a
+          href="https://www.instagram.com/stanleymisevich_photography/"
+          target="_blank"
+          ><img src="./assets/insta-icon.svg" alt="instagram-icon"
+        /></a>
       </div>
       <div class="gallery">
-          <img src="./assets/photo-gallery/photo2.jpg" alt="" />
-          <img src="./assets/photo-gallery/photo3.jpg" alt="" />
-          <img src="./assets/photo-gallery/photo4.jpeg" alt="" />
-          <img src="./assets/photo-gallery/photo5.jpeg" alt="" />
-          <img src="./assets/photo-gallery/photo7.png" alt="" />
-          <img src="./assets/photo-gallery/photo1.jpg" alt="" />
-          <img src="./assets/photo-gallery/photo8.png" alt="" />
-          <img src="./assets/photo-gallery/photo9.png" alt="" />
-          <img src="./assets/photo-gallery/photo10.png" alt="" />
-          <img src="./assets/photo-gallery/photo6.jpeg" alt="" />
-          <img src="./assets/photo-gallery/photo14.jpg" alt="" />
+        <img src="./assets/photo-gallery/photo2.jpg" alt="" />
+        <img src="./assets/photo-gallery/photo3.jpg" alt="" />
+        <img src="./assets/photo-gallery/photo4.jpeg" alt="" />
+        <img src="./assets/photo-gallery/photo5.jpeg" alt="" />
+        <img src="./assets/photo-gallery/photo7.png" alt="" />
+        <img src="./assets/photo-gallery/photo1.jpg" alt="" />
+        <img src="./assets/photo-gallery/photo8.png" alt="" />
+        <img src="./assets/photo-gallery/photo9.png" alt="" />
+        <img src="./assets/photo-gallery/photo10.png" alt="" />
+        <img src="./assets/photo-gallery/photo6.jpeg" alt="" />
+        <img src="./assets/photo-gallery/photo14.jpg" alt="" />
         <img src="./assets/photo-gallery/photo11.jpg" alt="" />
         <img src="./assets/photo-gallery/photo12.jpeg" alt="" />
         <img src="./assets/photo-gallery/photo13.jpg" alt="" />
       </div>
     </section>
     <footer>
-        <h2>Misevich Photography</h2>
-        <p>stanmisevich@gmail.com</p>
+      <h2>Misevich Photography</h2>
+      <p>stanleymisevichphotography@gmail.com</p>
     </footer>
+
+    <script
+      type="text/javascript"
+      src="https://assets.calendly.com/assets/external/widget.js"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/stanleymisevichphotography/30min",
+          text: "Book a free consultation call",
+          color: "#0069ff",
+          textColor: "#ffffff",
+        });
+      };
+    </script>
   </body>
 </html>
